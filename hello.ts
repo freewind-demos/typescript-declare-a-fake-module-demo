@@ -1,7 +1,7 @@
 import fake1 from '#fake1';
 
 import './fake2';
-import fake2 from '#fake2'
+import fake2, {F2Return} from '#fake2'
 
 fake1();
-fake2();
+const r2: F2Return = fake2();
